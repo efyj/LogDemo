@@ -14,6 +14,7 @@
 		401FFC141E11189300E46787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 401FFC131E11189300E46787 /* Assets.xcassets */; };
 		401FFC171E11189300E46787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401FFC151E11189300E46787 /* LaunchScreen.storyboard */; };
 		401FFC221E11189300E46787 /* LogDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 401FFC211E11189300E46787 /* LogDemoTests.m */; };
+		401FFC2E1E1118AF00E46787 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 401FFC2D1E1118AF00E46787 /* Foundation+Log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		401FFC1D1E11189300E46787 /* LogDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		401FFC211E11189300E46787 /* LogDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogDemoTests.m; sourceTree = "<group>"; };
 		401FFC231E11189300E46787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401FFC2D1E1118AF00E46787 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		401FFC061E11189300E46787 /* LogDemo */ = {
 			isa = PBXGroup;
 			children = (
+				401FFC2C1E1118A000E46787 /* Category */,
 				401FFC0A1E11189300E46787 /* AppDelegate.h */,
 				401FFC0B1E11189300E46787 /* AppDelegate.m */,
 				401FFC0D1E11189300E46787 /* ViewController.h */,
@@ -109,6 +112,14 @@
 				401FFC231E11189300E46787 /* Info.plist */,
 			);
 			path = LogDemoTests;
+			sourceTree = "<group>";
+		};
+		401FFC2C1E1118A000E46787 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				401FFC2D1E1118AF00E46787 /* Foundation+Log.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +229,7 @@
 				401FFC0F1E11189300E46787 /* ViewController.m in Sources */,
 				401FFC0C1E11189300E46787 /* AppDelegate.m in Sources */,
 				401FFC091E11189300E46787 /* main.m in Sources */,
+				401FFC2E1E1118AF00E46787 /* Foundation+Log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
